@@ -2,7 +2,7 @@
 creating java app with jlink
 
 1. mvn package
-2. jdeps --generate-module-info <output-dir> /path/to/yourApp.jar  -> it will generate module-info.java for your project
+2. jdeps --generate-module-info `<output-dir>` /path/to/yourApp.jar  -> it will generate module-info.java for your project
 3. copy module-info.java to your java package folder
 4. re package again
 5. jdeps --list-deps target/jlink-example-app-1.0.jar -> to confirms that you have the right module and you need it for specifying modules in step 6
