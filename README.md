@@ -11,7 +11,7 @@ creating java app with jlink
   out/bin/java -jar target/jlink-example-app-1.0.jar
 
 conclusion:
-  it will only generate module that you need in your JRE (out directory). your JRE should only have 20~30mb instead 100~200mb from the original JDK.
+  it will only generate module that you need in your JRE (out directory). your JRE should only have 20-30mb instead 100-200mb from the original JDK.
   
  references: 
  https://medium.com/azulsystems/using-jlink-to-build-java-runtimes-for-non-modular-applications-9568c5e70ef4
