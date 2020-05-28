@@ -14,4 +14,7 @@ conclusion:
   it will only generate module that you need in your JRE (out directory). your JRE should only have 20-30mb instead 100-200mb from the original JDK.
   
  references: 
+ https://stackoverflow.com/questions/47080660/how-to-build-java-9-dependencies-from-maven-dependencies
+ https://stackoverflow.com/questions/47500529/missing-dependencies-when-generate-module-info-jdeps
+ https://stackoverflow.com/questions/47727869/creating-module-info-for-automatic-modules-with-jdeps-in-java-9
  https://medium.com/azulsystems/using-jlink-to-build-java-runtimes-for-non-modular-applications-9568c5e70ef4
