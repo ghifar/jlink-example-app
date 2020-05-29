@@ -14,6 +14,9 @@ in your project(pom.xml), root execute this command:
 conclusion:
   it will only generate module that you need in your JRE (out directory). your JRE should only have 20-30mb instead 100-200mb from the original JDK.
   
+  notes: in order to using external dependencies, your extenral dependecies should have it's own module-info.java inside your dependency(see reference).
+  if you want easy approach to use jlink, you can use gradle plugin [badass-jlink-plugin-beryx](https://badass-jlink-plugin.beryx.org/releases/latest/#_mergedmodule).
+  
  references: 
  https://stackoverflow.com/questions/47080660/how-to-build-java-9-dependencies-from-maven-dependencies
  https://stackoverflow.com/questions/47500529/missing-dependencies-when-generate-module-info-jdeps
