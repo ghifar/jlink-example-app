@@ -32,7 +32,7 @@ in your project's root dir:
 ###play with jlink
 inside your build/libs direcory:
 1. jdeps --module-path=. --add-modules=org.slf4j --generate-module-info testing target/jlink-example-app-1.0.jar
-jlinkjars = all the modules that has been merged after <gradle jlink> executed and modified by plugin to have all module-info in each module.
+jlinkjars = all the modules that has been merged after <gradle jlink> executed and modified by plugin to generate all module-info.java in each dependencies you have.
 
 2. $JAVA_HOME/bin/jlink --module-path ../jlinkbase/jlinkjars --add-modules=jackson.databind --output result-image -> it will generate JRE inside result-image directory.
 
