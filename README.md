@@ -17,7 +17,11 @@ conclusion:
   notes: in order to using external dependencies, your extenral dependecies should have it's own module-info.java inside your dependency(see reference). It means that you have to modularize all your dependencies.
   
   
-  if you want easy approach to use jlink, you can use gradle plugin [badass-jlink-plugin-beryx](https://badass-jlink-plugin.beryx.org/releases/latest/#_mergedmodule).
+  if you want easy approach to use jlink, you can use gradle plugin [badass-jlink-plugin-beryx](https://badass-jlink-plugin.beryx.org/releases/latest/#_mergedmodule)
+  
+  OR
+  
+  with maven plugin [moditect](https://github.com/moditect/moditect)
   
  references: 
  https://stackoverflow.com/questions/47080660/how-to-build-java-9-dependencies-from-maven-dependencies
